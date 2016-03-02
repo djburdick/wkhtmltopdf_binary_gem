@@ -2,7 +2,7 @@
 require 'rake'
 
 Gem::Specification.new do |s|
-  s.name = "wkhtmltopdf-binary"
+  s.name = "wkhtmltopdf-binary-caseally"
   s.version = "0.9.9.3"
   s.author = "Zakir Durumeric"
   s.email = "zakird@gmail.com"

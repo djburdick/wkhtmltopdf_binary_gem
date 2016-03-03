@@ -11,7 +11,7 @@ require 'rbconfig'
 
 suffix = case RbConfig::CONFIG['host']
 when /x86_64.*linux/
-  if Rails.env.staging?
+   if ENV['RAILS_ENV'] == "staging"
     'linux_amd64_staging'
    else
     'linux_amd64'
